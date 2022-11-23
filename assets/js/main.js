@@ -1,7 +1,6 @@
 $(function() {
   $(window).resize(function() {
     setFullpage()
-    setMainHeight()
   })
 
   //스크롤포함 넓이 $(window).outerWidth()
