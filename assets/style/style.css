@@ -682,7 +682,8 @@ body.is--overflow-hidden {
 }
 @media screen and (max-width: 640px) {
   .main-video {
-    height: 60vh;
+    height: 60%;
+    height: calc(var(--vh, 1vh) * 60);
     width: auto;
     margin-left: auto;
   }
@@ -763,6 +764,11 @@ body.is--overflow-hidden {
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-video-text .main-video__description br {
+    display: none;
   }
 }
 .main-video-text .main-video__link {
