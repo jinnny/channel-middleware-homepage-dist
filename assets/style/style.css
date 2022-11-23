@@ -891,7 +891,7 @@ body.is--overflow-hidden {
 }
 @media screen and (max-width: 640px) {
   .process-section .process-video-area {
-    width: calc(100% - 40px);
+    width: 100%;
   }
 }
 
@@ -1005,7 +1005,7 @@ body.is--overflow-hidden {
 }
 @media screen and (max-width: 640px) {
   .feature-img {
-    width: calc(100% - 40px);
+    width: 100%;
   }
 }
 
