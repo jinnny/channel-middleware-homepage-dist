@@ -4,7 +4,8 @@ $(function() {
     setMainHeight()
   })
 
-  if ($(window).width() < 1280) {
+  //스크롤포함 넓이 $(window).outerWidth()
+  if ($(window).outerWidth() < 1280) {
     setFullpage()
     setMainHeight()
   }
@@ -15,7 +16,7 @@ $(function() {
   }
 
   function setFullpage () {
-    if($(window).width() >= 1280) {
+    if($(window).outerWidth() >= 1280) {
       location.reload()
     }else {
       $('.full').removeAttr('id')

@@ -115,7 +115,7 @@ html {
   width: 1440px;
   padding: 0;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1440px) {
   .layout.wide {
     width: 100%;
   }
